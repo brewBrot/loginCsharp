@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="LoginManagement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+
+        Title="" VerticalAlignment="Center" Height="350" Width="525" Icon="img/laboratory.png" Background="AliceBlue" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="lOgIn" HorizontalAlignment="Left" Height="64" Margin="200,0,0,0" VerticalAlignment="Top" Width="110" FontFamily="Comic Sans MS" FontSize="36" FontWeight="Bold"/>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="29" Margin="92,82,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="330"/>
+        <PasswordBox HorizontalAlignment="Left" Name="pswdtxt2" Height="33" Margin="88,148,0,0" VerticalAlignment="Top" Width="331" Password="Password"/>
+        <Button Content="Sign In" HorizontalAlignment="Left" Height="31" Margin="88,213,0,0" VerticalAlignment="Top" Width="91" Click="Button_Click_1"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="31" Margin="328,213,0,0" VerticalAlignment="Top" Width="91" Click="Button_Click_3"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Height="31" Margin="89,261,0,0" VerticalAlignment="Top" Width="330" Click="Button_Click_2"/>
+        
+
+    </Grid>
+</Controls:MetroWindow>
